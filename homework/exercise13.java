@@ -2,7 +2,7 @@ package homework;
 
 import java.util.Scanner;
 
-public class exercise2 {
+public class exercise13 {
 
 	public static void main(String[] args) {
 		System.out.print(" \nВведи число I: ");
@@ -12,13 +12,10 @@ public class exercise2 {
 		int d2 = scn.nextInt();
 		System.out.print(" \nВведи число III: ");
 		int d3 = scn.nextInt();
-		
-			if (d1>d2 && d1>d3)	System.out.print("Большее: " + d1);
-			 else if (d2>d3) System.out.print("Большее: " + d2);
-				 else System.out.print("Большее: " + d3);
-				    	
-					
-				
+		System.out.print(" \nВведи число IV: ");
+		int d4 = scn.nextInt();
+		int res = d1>d2 && d1>d3 && d1>d4?d1:d2>d3 && d2>d4?d2:d3>d4?d3:d4;		
+		System.out.print("Число: " + res + " большее.");
 	}
 
 }
