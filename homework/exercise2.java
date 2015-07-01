@@ -13,9 +13,14 @@ public class exercise2 {
 		System.out.print(" \nВведи число III: ");
 		int d3 = scn.nextInt();
 		
-			if (d1>d2 && d1>d3)	System.out.print("Большее: " + d1);
-			 else if (d2>d3) System.out.print("Большее: " + d2);
-				 else System.out.print("Большее: " + d3);
+		/*Или так:
+		 * int max = Math.max(d1, d2);
+		int max2 = Math.max(max, d3);
+		System.out.print("Большее: " + max2);*/
+		
+		if (d1>d2 && d1>d3)	System.out.print("Большее: " + d1);
+		 else if (d2>d3) System.out.print("Большее: " + d2);
+			 else System.out.print("Большее: " + d3);
 				    	
 					
 				
