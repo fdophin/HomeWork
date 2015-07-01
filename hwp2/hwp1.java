@@ -1,11 +1,11 @@
-package hwp2;
+п»їpackage hwp2;
 
 import java.util.Scanner;
 
 public class hwp1 {
 
 	public static void main(String[] args) {
-		System.out.println ("Введи координаты прямой для точек (X1, Y1) и (X2, Y2).");
+		System.out.println ("Р’РІРµРґРё РєРѕРѕСЂРґРёРЅР°С‚С‹ РїСЂСЏРјРѕР№ РґР»СЏ С‚РѕС‡РµРє (X1, Y1) Рё (X2, Y2).");
 		Scanner st = new Scanner(System.in);
 		double xA, yA, xB, yB;
 		
@@ -18,13 +18,13 @@ public class hwp1 {
 		xB = st.nextDouble ();
 		System.out.print ("Y2: ");
 		yB = st.nextDouble ();
-		} while (xA + yB == yA + yB); //Если, точки A и B совпадают программа повторно запросит ввод. 
+		} while (xA + yB == yA + yB); //Р•СЃР»Рё, С‚РѕС‡РєРё A Рё B СЃРѕРІРїР°РґР°СЋС‚ РїСЂРѕРіСЂР°РјРјР° РїРѕРІС‚РѕСЂРЅРѕ Р·Р°РїСЂРѕСЃРёС‚ РІРІРѕРґ. 
 		
 		if (xA == xB || yA == yB){
 			if (xA == xB) 
-				System.out.print ("Прямая параллельна оси X.");
-				else System.out.print ("Прямая параллельна оси Y.");
-		} else	System.out.print ("Прямая не параллельна ни одной из осей.");
+				System.out.print ("РџСЂСЏРјР°СЏ РїР°СЂР°Р»Р»РµР»СЊРЅР° РѕСЃРё X.");
+				else System.out.print ("РџСЂСЏРјР°СЏ РїР°СЂР°Р»Р»РµР»СЊРЅР° РѕСЃРё Y.");
+		} else	System.out.print ("РџСЂСЏРјР°СЏ РЅРµ РїР°СЂР°Р»Р»РµР»СЊРЅР° РЅРё РѕРґРЅРѕР№ РёР· РѕСЃРµР№.");
 		
 	}
 

@@ -1,4 +1,4 @@
-package homework;
+ï»¿package homework;
 
 import java.util.Scanner;
 
@@ -7,18 +7,18 @@ public class exercise6 {
 	public static void main(String[] args) {
 		double N, M, dot;
 		Scanner sc = new Scanner (System.in);
-		System.out.print ("Ââåäè äèàïàçîí: \níà÷àëüíàÿ òî÷êà N: ");
+		System.out.print ("Ð’Ð²ÐµÐ´Ð¸ Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½: \nÐ½Ð°Ñ‡Ð°Ð»ÑŒÐ½Ð°Ñ Ñ‚Ð¾Ñ‡ÐºÐ° N: ");
 		N = sc.nextDouble();
-		System.out.print ("êîíå÷íàÿ M: ");
+		System.out.print ("ÐºÐ¾Ð½ÐµÑ‡Ð½Ð°Ñ M: ");
 		M = sc.nextDouble();
-		System.out.print ("\nÂâåäè ÷èñëî èñêîìîé òî÷êè: ");
+		System.out.print ("\nÐ’Ð²ÐµÐ´Ð¸ Ñ‡Ð¸ÑÐ»Ð¾ Ð¸ÑÐºÐ¾Ð¼Ð¾Ð¹ Ñ‚Ð¾Ñ‡ÐºÐ¸: ");
 		dot = sc.nextDouble();
 		
 		
 		if(dot>=N && dot<=M){
-			System.out.print ("Òî÷êà ïðåíàäëåæèò äèàïàçîíó");
+			System.out.print ("Ð¢Ð¾Ñ‡ÐºÐ° Ð¿Ñ€ÐµÐ½Ð°Ð´Ð»ÐµÐ¶Ð¸Ñ‚ Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ñƒ");
 			} else {
-				System.out.print("Òî÷êà íå ïðåíàäëåæèò äèàïàçîíó");
+				System.out.print("Ð¢Ð¾Ñ‡ÐºÐ° Ð½Ðµ Ð¿Ñ€ÐµÐ½Ð°Ð´Ð»ÐµÐ¶Ð¸Ñ‚ Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ñƒ");
 			 }
 	}
 

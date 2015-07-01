@@ -1,4 +1,4 @@
-package homework;
+п»їpackage homework;
 
 import java.util.Scanner;
 
@@ -7,10 +7,10 @@ public class exercise10 {
 	public static void main(String[] args) {
 		
 		Scanner scn = new Scanner (System.in);
-		System.out.print("Сколько символов в строке? \nВведи слово или число: ");
+		System.out.print("РЎРєРѕР»СЊРєРѕ СЃРёРјРІРѕР»РѕРІ РІ СЃС‚СЂРѕРєРµ? \nР’РІРµРґРё СЃР»РѕРІРѕ РёР»Рё С‡РёСЃР»Рѕ: ");
 		String st = scn.nextLine();
 		int n = st.length();
-		System.out.print("В строке: " + n + " символов!");
+		System.out.print("Р’ СЃС‚СЂРѕРєРµ: " + n + " СЃРёРјРІРѕР»РѕРІ!");
 
 	}
 

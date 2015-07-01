@@ -1,4 +1,4 @@
-package homework;
+ï»¿package homework;
 
 import java.util.Scanner;
 
@@ -7,23 +7,23 @@ public class exercise12 {
 	public static void main(String[] args) {
 		int a1, a2, b1, b2, dot1, dot2;
 		Scanner sc = new Scanner (System.in);
-		System.out.print ("Ââåäè êîîðäèíàòû ïðÿìîóãîëüíèêà. \nÒî÷êà äëÿ íèæíåãî ëåâîãî óãëà\nîñü X: ");
+		System.out.print ("Ð’Ð²ÐµÐ´Ð¸ ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°. \nÐ¢Ð¾Ñ‡ÐºÐ° Ð´Ð»Ñ Ð½Ð¸Ð¶Ð½ÐµÐ³Ð¾ Ð»ÐµÐ²Ð¾Ð³Ð¾ ÑƒÐ³Ð»Ð°\nÐ¾ÑÑŒ X: ");
 		a1 = sc.nextInt();
-		System.out.print ("îñü Y: ");
+		System.out.print ("Ð¾ÑÑŒ Y: ");
 		a2 = sc.nextInt();
-		System.out.print ("\nÒî÷êà äëÿ âåðõíåãî ïðàâîãî óãëà\nîñü X: ");
+		System.out.print ("\nÐ¢Ð¾Ñ‡ÐºÐ° Ð´Ð»Ñ Ð²ÐµÑ€Ñ…Ð½ÐµÐ³Ð¾ Ð¿Ñ€Ð°Ð²Ð¾Ð³Ð¾ ÑƒÐ³Ð»Ð°\nÐ¾ÑÑŒ X: ");
 		b1 = sc.nextInt();
-		System.out.print ("îñü Y: ");
+		System.out.print ("Ð¾ÑÑŒ Y: ");
 		b2 = sc.nextInt();
-		System.out.print ("\nÂâåäè êîîðäèíàòû òî÷êè, äëÿ ïðîâåðêè ïðåíàäëåæíîñòè åå ê ïðÿìîóãîëüíèêó. \nîñü X: ");
+		System.out.print ("\nÐ’Ð²ÐµÐ´Ð¸ ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ Ñ‚Ð¾Ñ‡ÐºÐ¸, Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸ Ð¿Ñ€ÐµÐ½Ð°Ð´Ð»ÐµÐ¶Ð½Ð¾ÑÑ‚Ð¸ ÐµÐµ Ðº Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÑƒ. \nÐ¾ÑÑŒ X: ");
 		dot1 = sc.nextInt();
-		System.out.print ("îñü Y: ");
+		System.out.print ("Ð¾ÑÑŒ Y: ");
 		dot2 = sc.nextInt();
 		
 		if(dot1>=a1 && dot1<=b1 && dot2>=a2 && dot2<=b2 ){
-			System.out.print ("Òî÷êà ïðåíàäëåæèò ïðÿìîóãîëüíèêó");
+			System.out.print ("Ð¢Ð¾Ñ‡ÐºÐ° Ð¿Ñ€ÐµÐ½Ð°Ð´Ð»ÐµÐ¶Ð¸Ñ‚ Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÑƒ");
 			} else {
-				System.out.print("Òî÷êà íå ïðåíàäëåæèò ïðÿìîóãîëüíèêó");
+				System.out.print("Ð¢Ð¾Ñ‡ÐºÐ° Ð½Ðµ Ð¿Ñ€ÐµÐ½Ð°Ð´Ð»ÐµÐ¶Ð¸Ñ‚ Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÑƒ");
 			 }
 	}
 	

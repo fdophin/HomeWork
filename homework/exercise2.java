@@ -1,26 +1,26 @@
-package homework;
+ï»¿package homework;
 
 import java.util.Scanner;
 
 public class exercise2 {
 
 	public static void main(String[] args) {
-		System.out.print(" \nÂâåäè ÷èñëî I: ");
+		System.out.print(" \nÐ’Ð²ÐµÐ´Ð¸ Ñ‡Ð¸ÑÐ»Ð¾ I: ");
 		Scanner scn = new Scanner (System.in);
 		int d1 = scn.nextInt();
-		System.out.print(" \nÂâåäè ÷èñëî II: ");
+		System.out.print(" \nÐ’Ð²ÐµÐ´Ð¸ Ñ‡Ð¸ÑÐ»Ð¾ II: ");
 		int d2 = scn.nextInt();
-		System.out.print(" \nÂâåäè ÷èñëî III: ");
+		System.out.print(" \nÐ’Ð²ÐµÐ´Ð¸ Ñ‡Ð¸ÑÐ»Ð¾ III: ");
 		int d3 = scn.nextInt();
 		
-		/*Èëè òàê:
+		/*Ð˜Ð»Ð¸ Ñ‚Ð°Ðº:
 		 * int max = Math.max(d1, d2);
 		int max2 = Math.max(max, d3);
-		System.out.print("Áîëüøåå: " + max2);*/
+		System.out.print("Ð‘Ð¾Ð»ÑŒÑˆÐµÐµ: " + max2);*/
 		
-		if (d1>d2 && d1>d3)	System.out.print("Áîëüøåå: " + d1);
-		 else if (d2>d3) System.out.print("Áîëüøåå: " + d2);
-			 else System.out.print("Áîëüøåå: " + d3);
+		if (d1>d2 && d1>d3)	System.out.print("Ð‘Ð¾Ð»ÑŒÑˆÐµÐµ: " + d1);
+		 else if (d2>d3) System.out.print("Ð‘Ð¾Ð»ÑŒÑˆÐµÐµ: " + d2);
+			 else System.out.print("Ð‘Ð¾Ð»ÑŒÑˆÐµÐµ: " + d3);
 				    	
 					
 				

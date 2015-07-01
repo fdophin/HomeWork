@@ -1,19 +1,19 @@
-package homework;
+п»їpackage homework;
 
 import java.util.Scanner;
 
 public class exercise7 {
 
 	public static void main(String[] args) {
-		System.out.print("Проверка 2-х чисел на кратность. \nВведи число а:  ");
+		System.out.print("РџСЂРѕРІРµСЂРєР° 2-С… С‡РёСЃРµР» РЅР° РєСЂР°С‚РЅРѕСЃС‚СЊ. \nР’РІРµРґРё С‡РёСЃР»Рѕ Р°:  ");
 		Scanner scn = new Scanner (System.in);
 		int d1 = scn.nextInt();
-		System.out.print("\nВведи число b:  ");
+		System.out.print("\nР’РІРµРґРё С‡РёСЃР»Рѕ b:  ");
 		int d2 = scn.nextInt();
 		if (d1%d2==0){
-				System.out.print(d1 + "и" + d2 + " " + "Кратные!");
+				System.out.print(d1 + "Рё" + d2 + " " + "РљСЂР°С‚РЅС‹Рµ!");
 				
-			} else System.out.print(d1 + "и" + d2 + " " + "Не кратные!");
+			} else System.out.print(d1 + "Рё" + d2 + " " + "РќРµ РєСЂР°С‚РЅС‹Рµ!");
 
 	}
 

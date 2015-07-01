@@ -1,4 +1,4 @@
-package hwp2;
+п»їpackage hwp2;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -10,67 +10,67 @@ public class hwp13 {
 		Scanner st = new Scanner(System.in);
 		Random rand = new Random();
 		int r = rand.nextInt(20);
-		System.out.println ("Твой вопрос: ");
+		System.out.println ("РўРІРѕР№ РІРѕРїСЂРѕСЃ: ");
 		String you =st.nextLine();
 		switch (r) {
 		 	case 1:
-	            System.out.println("Да!"); 
+	            System.out.println("Р”Р°!"); 
 	            break;
 	         case 2:
-		            System.out.println("Видится большой успех в этом направлении, продолжайте в том же духе..."); 
+		            System.out.println("Р’РёРґРёС‚СЃСЏ Р±РѕР»СЊС€РѕР№ СѓСЃРїРµС… РІ СЌС‚РѕРј РЅР°РїСЂР°РІР»РµРЅРёРё, РїСЂРѕРґРѕР»Р¶Р°Р№С‚Рµ РІ С‚РѕРј Р¶Рµ РґСѓС…Рµ..."); 
 		        break;    
 	         case 3:
-	            System.out.println("Не по зубам тебе однако будет.");
+	            System.out.println("РќРµ РїРѕ Р·СѓР±Р°Рј С‚РµР±Рµ РѕРґРЅР°РєРѕ Р±СѓРґРµС‚.");
 	            break;
 	         case 4:
-	            System.out.println("Вот так удача.");
+	            System.out.println("Р’РѕС‚ С‚Р°Рє СѓРґР°С‡Р°.");
 	         case 5:
-	            System.out.println("Поменяй свой ход мысли, пока еще не поздно. Ok?!");
+	            System.out.println("РџРѕРјРµРЅСЏР№ СЃРІРѕР№ С…РѕРґ РјС‹СЃР»Рё, РїРѕРєР° РµС‰Рµ РЅРµ РїРѕР·РґРЅРѕ. Ok?!");
 	            break;
 	         case 6:
-	            System.out.println("Все будет хорошо...");
+	            System.out.println("Р’СЃРµ Р±СѓРґРµС‚ С…РѕСЂРѕС€Рѕ...");
 	            break;
 	         case 7:
-		            System.out.println("Уж как знаешь!");
+		            System.out.println("РЈР¶ РєР°Рє Р·РЅР°РµС€СЊ!");
 		        break;
 	         case 8:
-		            System.out.println("Хуже не будет.");
+		            System.out.println("РҐСѓР¶Рµ РЅРµ Р±СѓРґРµС‚.");
 		        break;
 	         case 9:
-		            System.out.println("Спроси позже...");
+		            System.out.println("РЎРїСЂРѕСЃРё РїРѕР·Р¶Рµ...");
 		        break;
 	         case 10:
-		            System.out.println("О чем речь...");
+		            System.out.println("Рћ С‡РµРј СЂРµС‡СЊ...");
 		        break;
 	         case 11:
-		            System.out.println("Ляг, поспи и все пройдет.");
+		            System.out.println("Р›СЏРі, РїРѕСЃРїРё Рё РІСЃРµ РїСЂРѕР№РґРµС‚.");
 		        break;
 	         case 12:
-		            System.out.println("Это того не стоит.");
+		            System.out.println("Р­С‚Рѕ С‚РѕРіРѕ РЅРµ СЃС‚РѕРёС‚.");
 		        break;
 	         case 13:
-		            System.out.println("Думай об этом чаще. ");
+		            System.out.println("Р”СѓРјР°Р№ РѕР± СЌС‚РѕРј С‡Р°С‰Рµ. ");
 		        break;
 	         case 14:
-		            System.out.println("Иш - размечтался.");
+		            System.out.println("РС€ - СЂР°Р·РјРµС‡С‚Р°Р»СЃСЏ.");
 		        break;
 	         case 15:
-		            System.out.println("Не боись, все так и будет!");
+		            System.out.println("РќРµ Р±РѕРёСЃСЊ, РІСЃРµ С‚Р°Рє Рё Р±СѓРґРµС‚!");
 		        break;
 	         case 16:
-		            System.out.println("Рискни, ведь ты шампанского еще не пил.");
+		            System.out.println("Р РёСЃРєРЅРё, РІРµРґСЊ С‚С‹ С€Р°РјРїР°РЅСЃРєРѕРіРѕ РµС‰Рµ РЅРµ РїРёР».");
 		        break;
 	         case 17:
-		            System.out.println("Плохи твои дела!");
+		            System.out.println("РџР»РѕС…Рё С‚РІРѕРё РґРµР»Р°!");
 		        break;
 	         case 18:
-		            System.out.println("Хочешь это обсудить?");
+		            System.out.println("РҐРѕС‡РµС€СЊ СЌС‚Рѕ РѕР±СЃСѓРґРёС‚СЊ?");
 		        break;
 	         case 19:
-		            System.out.println("Никого нет дома, перезвоните позже или оставте сообщение после сигнала.\nБииип!");
+		            System.out.println("РќРёРєРѕРіРѕ РЅРµС‚ РґРѕРјР°, РїРµСЂРµР·РІРѕРЅРёС‚Рµ РїРѕР·Р¶Рµ РёР»Рё РѕСЃС‚Р°РІС‚Рµ СЃРѕРѕР±С‰РµРЅРёРµ РїРѕСЃР»Рµ СЃРёРіРЅР°Р»Р°.\nР‘РёРёРёРї!");
 		        break;
 	         case 20:
-		            System.out.println("Нет!");
+		            System.out.println("РќРµС‚!");
 		        break;
 		}
 	}

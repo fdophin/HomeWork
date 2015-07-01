@@ -1,21 +1,21 @@
-package homework;
+п»їpackage homework;
 
 import java.util.Scanner;
 
 public class exercise3 {
 
 	public static void main(String[] args) {
-		System.out.print("Положительное, отрицательное, равно нулю! \nВведи число: ");
+		System.out.print("РџРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ, РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ, СЂР°РІРЅРѕ РЅСѓР»СЋ! \nР’РІРµРґРё С‡РёСЃР»Рѕ: ");
 		Scanner scn = new Scanner (System.in);
 		double dig = scn.nextDouble();
 			if (dig > 0){
-				System.out.print ("Число положительное.");
+				System.out.print ("Р§РёСЃР»Рѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ.");
 			}else {
 				if (dig==0){
-					System.out.print ("Число равно 0.");
+					System.out.print ("Р§РёСЃР»Рѕ СЂР°РІРЅРѕ 0.");
 				}else {
 					if(dig<0)
-						System.out.print ("Число отрицательное.");
+						System.out.print ("Р§РёСЃР»Рѕ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ.");
 						}
 			}
 				

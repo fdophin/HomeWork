@@ -1,4 +1,4 @@
-package homework;
+п»їpackage homework;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class exercise9 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
-		System.out.print ("Показать модуль числа. \nВведи число: ");
+		System.out.print ("РџРѕРєР°Р·Р°С‚СЊ РјРѕРґСѓР»СЊ С‡РёСЃР»Р°. \nР’РІРµРґРё С‡РёСЃР»Рѕ: ");
 		double mod = Math.abs(sc.nextDouble());
 		System.out.print(mod);
 

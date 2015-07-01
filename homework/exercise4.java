@@ -1,4 +1,4 @@
-package homework;
+ï»¿package homework;
 
 import java.util.Scanner;
 
@@ -6,19 +6,19 @@ public class exercise4 {
 
 	public static void main(String[] args) {
 		
-		System.out.print(" \nÂâåäè ÷èñëî a: ");
+		System.out.print(" \nÐ’Ð²ÐµÐ´Ð¸ Ñ‡Ð¸ÑÐ»Ð¾ a: ");
 		Scanner scn = new Scanner (System.in);
 		double a = scn.nextDouble();
-		System.out.print(" \nÂâåäè ÷èñëî b: ");
+		System.out.print(" \nÐ’Ð²ÐµÐ´Ð¸ Ñ‡Ð¸ÑÐ»Ð¾ b: ");
 		double b = scn.nextDouble();
-		System.out.print("1) a + b\n2) a – b\n3) a * b\n4) a / b\n5) a % b\nÂûáåðè äåéñòâèÿ îò 1-5: ");
+		System.out.print("1) a + b\n2) a â€“ b\n3) a * b\n4) a / b\n5) a % b\nÐ’Ñ‹Ð±ÐµÑ€Ð¸ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ Ð¾Ñ‚ 1-5: ");
 		int oper = scn.nextInt();
 		if (oper==1) System.out.print(a+b);
 		if (oper==2) System.out.print(a-b);
 		if (oper==3) System.out.print(a*b);
 			if (oper==4){
 				while (b==0){
-					System.out.print("Äåëåíèå íà 0 çàïðåùåíî, ââåäè öèôðó áîëüøå íóëÿ: ");
+					System.out.print("Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ Ð½Ð° 0 Ð·Ð°Ð¿Ñ€ÐµÑ‰ÐµÐ½Ð¾, Ð²Ð²ÐµÐ´Ð¸ Ñ†Ð¸Ñ„Ñ€Ñƒ Ð±Ð¾Ð»ÑŒÑˆÐµ Ð½ÑƒÐ»Ñ: ");
 					b = scn.nextDouble();
 					if (b>0) System.out.print(a/b);
 							}

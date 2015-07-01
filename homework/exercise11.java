@@ -1,4 +1,4 @@
-package homework;
+п»їpackage homework;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class exercise11 {
 		/*String original, reverse = "";
 	      Scanner in = new Scanner(System.in);
 	 
-	      System.out.println("Проверка на полиндром. \nВведи 5-ти значное число: ");
+	      System.out.println("РџСЂРѕРІРµСЂРєР° РЅР° РїРѕР»РёРЅРґСЂРѕРј. \nР’РІРµРґРё 5-С‚Рё Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ: ");
 	      original = in.nextLine();
 	 
 	      int length = original.length();
@@ -17,18 +17,18 @@ public class exercise11 {
 	         reverse = reverse + original.charAt(i);
 	      System.out.println (reverse);
 	      if (original.equals(reverse))
-	         System.out.println("Строка полиндромна.");
+	         System.out.println("РЎС‚СЂРѕРєР° РїРѕР»РёРЅРґСЂРѕРјРЅР°.");
 	      else
-	         System.out.println("Строка не полиндромна.");*/
-		System.out.println("Проверка на полиндром. \nВведи 5-ти значное число: ");
+	         System.out.println("РЎС‚СЂРѕРєР° РЅРµ РїРѕР»РёРЅРґСЂРѕРјРЅР°.");*/
+		System.out.println("РџСЂРѕРІРµСЂРєР° РЅР° РїРѕР»РёРЅРґСЂРѕРј. \nР’РІРµРґРё 5-С‚Рё Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ: ");
 	      Scanner srin = new Scanner(System.in);
 			String num = srin.nextLine();
 			String rev = new StringBuffer(num).reverse().toString();
 			 System.out.println(rev);
 			if (num.equals (rev)){
-		         System.out.println("Строка полиндромна.");
+		         System.out.println("РЎС‚СЂРѕРєР° РїРѕР»РёРЅРґСЂРѕРјРЅР°.");
 			} else {
-		         System.out.println("Строка не полиндромна.");
+		         System.out.println("РЎС‚СЂРѕРєР° РЅРµ РїРѕР»РёРЅРґСЂРѕРјРЅР°.");
 			}
 	}
 

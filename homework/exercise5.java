@@ -1,17 +1,17 @@
-package homework;
+п»їpackage homework;
 
 import java.util.Scanner;
 //import java.lang.Character;
 public class exercise5 {
 
 	public static void main(String[] args) {
-	System.out.print ("Введи сивол, число или знак : ");
+	System.out.print ("Р’РІРµРґРё СЃРёРІРѕР», С‡РёСЃР»Рѕ РёР»Рё Р·РЅР°Рє : ");
 	Scanner sc = new Scanner(System.in);
 	char cha = sc.next().charAt(0);
 	
-	  if ( Character.isDigit(cha) ) System.out.print ("цифра");
-	  else if ( Character.isLetter(cha) ) System.out.print ("буква");
-	  else System.out.print ("спецсимвол");
+	  if ( Character.isDigit(cha) ) System.out.print ("С†РёС„СЂР°");
+	  else if ( Character.isLetter(cha) ) System.out.print ("Р±СѓРєРІР°");
+	  else System.out.print ("СЃРїРµС†СЃРёРјРІРѕР»");
 	}
 
 }
