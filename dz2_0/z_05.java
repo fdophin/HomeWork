@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class z_05 {
 
 	public static void main(String[] args) {
-		System.out.print ("Фактоиал числа, веди цыфру: ");
+		System.out.print ("Фактоиал числа, введи цыфру: ");
 		Scanner scn = new Scanner (System.in);
 		
 		
