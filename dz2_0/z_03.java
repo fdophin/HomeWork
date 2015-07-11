@@ -12,7 +12,6 @@ public class z_03 {
 		for (int N = scn.nextInt(), M = scn.nextInt(), i = N + 1; i <= M; i++) {
 			N+=i;
 			if (i != M)continue; System.out.print (N); 
-						
 		}
 
 	}

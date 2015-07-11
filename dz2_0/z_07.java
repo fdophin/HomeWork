@@ -1,6 +1,6 @@
 package dz2_0;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class z_07 {
 
@@ -9,4 +9,4 @@ public class z_07 {
 		}
 	}
 
-}
+
