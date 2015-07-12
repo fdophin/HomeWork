@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class dz19 {
 
 	public static void main(String[] args) {
-		
+		//Пример
 		int yarus_count = 5;
 		int yarus_height = 5;
 
