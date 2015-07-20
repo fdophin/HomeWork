@@ -34,14 +34,20 @@ public class hwp04 {
 	       
 	          
 	        
-	        /*String s = sr.nextLine();
-	        String[] a = s.split("");
-	        int m=0;
-	        for(int i=0;i<3;i++){
-	            m+=Integer.parseInt(a[i]);
-	        }
+	        /*2 Вариант:
+	         * Scanner sr = new Scanner(System.in);
+        
+        String s = sr.nextLine(); // ввод 6 значного числа в строку
+        String[] a = s.split(""); //перевод в массив символов
+	        int m=0, v=0;
 	        
-	        System.out.println(m+"");*/
+	        for(int i=0;i<6;i++){ 
+	            if(i<3){					// первые три числа
+	        	m+=Integer.parseInt(a[i]); // извлечение из масива символов в число и сложение последующих между собой
+	            } else v+=Integer.parseInt(a[i]); // последние три числа
+	        }
+	        boolean nowhere = m==v;	// сравнение
+	        System.out.println(nowhere);*/ // вывод - истина или лож
 		
 		
 	}
