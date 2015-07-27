@@ -8,7 +8,7 @@ package dz2_1;
 public class dz06 {
 
 	public static void main(String[] args) {
-		int vis = 15, shir = 15, x, y;
+		int vis = 5, shir = 5, x, y;
 		for(y = 0; y < vis; y++){
 		    for(x = 0 ; x < shir; x++){
 		           if(x <= y+shir/2 && x+y >= shir/2 && x >= y-vis/2 && x+y <= shir+vis/2-1){

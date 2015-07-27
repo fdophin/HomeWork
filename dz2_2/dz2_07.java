@@ -15,7 +15,8 @@ public class dz2_07 {
 			sum+=array [i];
 		} else positive_switch = true; 
 		
-		}System.out.println("\nСумма отрицательных чисел до первого положительного не включая ноль: "+sum);
+		}
+		System.out.println("\nСумма отрицательных чисел до первого положительного не включая ноль: "+sum);
 	}
 
 }
