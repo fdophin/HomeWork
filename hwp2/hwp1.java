@@ -18,12 +18,12 @@ public class hwp1 {
 		xB = st.nextDouble ();
 		System.out.print ("Y2: ");
 		yB = st.nextDouble ();
-		} while (xA + yB == yA + yB); //Если, точки A и B совпадают программа повторно запросит ввод. 
+		} while (xA == xB & yA == yB); //Если, точки A и B совпадают программа повторно запросит ввод. 
 		
 		if (xA == xB || yA == yB){
 			if (xA == xB) 
-				System.out.print ("Прямая параллельна оси X.");
-				else System.out.print ("Прямая параллельна оси Y.");
+				System.out.print ("Прямая параллельна оси Y.");
+				else System.out.print ("Прямая параллельна оси X.");
 		} else	System.out.print ("Прямая не параллельна ни одной из осей.");
 		
 	}
